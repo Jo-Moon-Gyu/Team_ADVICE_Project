@@ -1,11 +1,11 @@
 # Advicehttps://github.com/Jo-Moon-Gyu/Team_ADVICE_Project/blob/main/README.md
 팀 및 사이트 이름 :ADVICE
-[![ADVISER]([https://github.com/Jo-Moon-Gyu/Team_ADVICE_Project/issues/1#issue-2042778770]
+![image](https://github.com/Jo-Moon-Gyu/Team_ADVICE_Project/issues/1#issue-2042778770)
 <br>
 
-### 사용자의 운동환경 및 경험을 고려한 신발 추천 서비스(리뷰 데이터를 수집하여 신발 특성 파악)<br>
+### 딥러닝 기술을 활용한 피부 상처 대응법 조언 플래폼(리뷰 데이터를 수집하여 상처 특성 파악)<br>
 
-#### 상품 추천목록 예시
+#### 어플화면
 
 ![image](https://github.com/2023-SMHRD-KDT-AI-2/ReviewRepo/assets/143058069/ac68f372-b36f-4d57-8eb4-5fe2c55dc304) <br>
 
