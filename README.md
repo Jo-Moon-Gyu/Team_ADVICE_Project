@@ -46,11 +46,11 @@
     <td align="center"><strong>문진환</strong></td>    
   </tr>
   <tr>
-    <td align="center"><b>PM,DB설계 및 쿼리문 작성,서버 통신 구현,안드로이드 기능 통합, API 구현</b></td>
-    <td align="center"><b>API 구현, 서버 통신 로직 구현, 안드로이드 기능 통합</b></td>
-    <td align="center"><b>APP UI/UX, Web UI/UX, 안드로이드 소셜 로그인</b></td>
-    <td align="center"><b>API 통신 로직 구현, 카카오 API 구현, 안드로이드 기능 통합</b></td>
-    <td align="center"><b>데이터 수집, 딥러닝 모델 개발,배포</b></td>    
+    <td align="center"><b>PM<br>DB설계 및 쿼리문 작성<br>서버 통신 구현<br>안드로이드 기능 통합<br> API 구현</b></td>
+    <td align="center"><b>API 구현<br>서버 통신 로직 구현<br>안드로이드 기능 통합</b></td>
+    <td align="center"><b>APP UI/UX<br> Web UI/UX<br> 안드로이드 소셜 로그인</b></td>
+    <td align="center"><b>API 통신 로직 구현<br> 카카오 API 구현<br> 안드로이드 기능 통합</b></td>
+    <td align="center"><b>데이터 수집<br> 딥러닝 모델 개발,배포</b></td>    
   </tr>
   <tr>
     <td align="center"><a href="https://github.com/Jo-Moon-Gyu" target='_blank'>github</a></td>
