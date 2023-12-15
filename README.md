@@ -120,7 +120,9 @@
 ![image](https://github.com/Jo-Moon-Gyu/Team_ADVICE_CMS/assets/143462444/a6a254b2-0985-4853-9a23-d4e49c8666f7)
 
 
-## 딥러닝 기술을 활용한 피부 상처 대응법 조언 플래폼 (리뷰 데이터를 수집하여 상처 특성 파악)<br>
+## 딥러닝 모델<br>
+![image](https://github.com/Jo-Moon-Gyu/Team_ADVICE_Project/assets/143055961/ff9635a3-6ac2-4236-b728-d78beb5d7161)
+
 
 
 ## App화면
