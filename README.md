@@ -1,11 +1,15 @@
-팀 및 사이트 이름 :ADVICE
+# ADVICE(App)
+스마트 인재 개발원 - 인공지능 융합 서비스 개발자 과정 <br>
+- 실전 프로젝트 <br>
+- 주제 : 딥러닝 기술을 활용한 피부 상처 조언 플랫폼 <br>
 ![슬라이드1](https://github.com/Jo-Moon-Gyu/Team_ADVICE_Project/assets/143511660/457996c6-e974-4bab-a16c-dd92aba31a98)
-
 <br>
+## 프로젝트기간 <br>
+- 2023.11.17 ~ 2023.12.14
 
-### 딥러닝 기술을 활용한 피부 상처 대응법 조언 플래폼(리뷰 데이터를 수집하여 상처 특성 파악)<br>
+## 딥러닝 기술을 활용한 피부 상처 대응법 조언 플래폼(리뷰 데이터를 수집하여 상처 특성 파악)<br>
 
-#### 어플화면
+## 어플화면
 ![슬라이드14](https://github.com/Jo-Moon-Gyu/Team_ADVICE_Project/assets/143055961/32d64178-8450-4188-b16d-ef45b91c798e)<br>
 ![슬라이드15](https://github.com/Jo-Moon-Gyu/Team_ADVICE_Project/assets/143055961/019c9596-8078-485b-a440-2fb3a8789009)<br>
 ![슬라이드16](https://github.com/Jo-Moon-Gyu/Team_ADVICE_Project/assets/143055961/27c3e560-d651-4cf9-b860-eec8104b4354)<br>
@@ -15,7 +19,7 @@
 
 <br>
 
-#### 기술 스택
+## 기술 스택
 <br>![슬라이드12](https://github.com/Jo-Moon-Gyu/Team_ADVICE_Project/assets/143055961/94b70df4-9894-48a7-9e95-dd35e24d6c97)
 
 
@@ -46,9 +50,9 @@
   </tr>
   <tr>
     <td align="center"><a href="https://github.com/Jo-Moon-Gyu" target='_blank'>github</a></td>
-    <td align="center"><a href="https://github.com/" target='_blank'>github</a></td>
+    <td align="center"><a href="https://github.com/Nam-Hyun-Woong" target='_blank'>github</a></td>
     <td align="center"><a href="https://github.com/applestore2" target='_blank'>github</a></td>
     <td align="center"><a href="https://github.com/rsefaqtd" target='_blank'>github</a></td>
-    <td align="center"><a href="https://github.com/" target='_blank'>github</a></td>    
+    <td align="center"><a href="https://github.com/zznnan0512" target='_blank'>github</a></td>    
   </tr>
 </table>
