@@ -24,9 +24,9 @@
 ## 👨‍👩‍👦‍👦 팀원 역할
 <table>
   <tr>
-    <td align="center"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRPVFExbUsv0VWfpu7XbpfCq7BmSQzhqRnllg&usqp=CAU" width="100" height="100"/></td>
-    <td align="center"><img src="https://static.ebs.co.kr/images/ebs/WAS-HOME/portal/upload/img/programinfo/person/per/1242723212878_bxr2reBk9w.jpg" width="100" height="100"/></td>
-    <td align="center"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQATD2ec1Z5Mw3A2lPqaZSo0jAF63i8Nrpw2w&usqp=CAU" width="100" height="100"/></td>
+    <td align="center"><img src="https://github.com/Jo-Moon-Gyu/Team_ADVICE_Project/assets/143055961/395831ac-a890-400f-9d7a-c30539934d72" width="100" height="100"/></td>
+    <td align="center"><![image](https://github.com/Jo-Moon-Gyu/Team_ADVICE_Project/assets/143055961/a1a680a2-796e-4264-9669-188d8a4cdd9a" width="100" height="100"/></td>
+    <td align="center"><img src="https://github.com/Jo-Moon-Gyu/Team_ADVICE_Project/assets/143055961/27499098-2775-48de-9eef-44f6611eb130" width="100" height="100"/></td>
     <td align="center"><img src="https://static.ebs.co.kr/images/ebs/WAS-HOME/portal/upload/img/programinfo/person/per/1242723572507_BOtiBfIuyL.jpg" width="100" height="100"/></td>
     <td align="center"><img src="https://static.ebs.co.kr/images/ebs/WAS-HOME/portal/upload/img/programinfo/person/per/1242723588618_dphGgSgOAp.jpg" width="100" height="100"/></td>
   </tr>
