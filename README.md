@@ -46,8 +46,8 @@
 
 
 ## 주요기능 <br>
-* 실시간 질의응답 확인 및 관리 <br>
-* 사용자 계정 조회 및 관리
+* Fine-Tuning_inceptionV3모델을 이용한 피부.상처 안내 <br>
+* RestController 기술을 활용한 앱 <-> 웹 데이터 통신 API
 
 ## 기술스택<br>
 
