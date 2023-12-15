@@ -25,10 +25,10 @@
 <table>
   <tr>
     <td align="center"><img src="https://github.com/Jo-Moon-Gyu/Team_ADVICE_Project/assets/143055961/395831ac-a890-400f-9d7a-c30539934d72" width="100" height="100"/></td>
-    <td align="center"><![image](https://github.com/Jo-Moon-Gyu/Team_ADVICE_Project/assets/143055961/a1a680a2-796e-4264-9669-188d8a4cdd9a" width="100" height="100"/></td>
+    <td align="center"><img src ="https://github.com/Jo-Moon-Gyu/Team_ADVICE_Project/assets/143055961/aa6cacbc-9303-4707-91cd-85925f66bfba" width="100" height="100"/></td>
     <td align="center"><img src="https://github.com/Jo-Moon-Gyu/Team_ADVICE_Project/assets/143055961/27499098-2775-48de-9eef-44f6611eb130" width="100" height="100"/></td>
-    <td align="center"><img src="https://static.ebs.co.kr/images/ebs/WAS-HOME/portal/upload/img/programinfo/person/per/1242723572507_BOtiBfIuyL.jpg" width="100" height="100"/></td>
-    <td align="center"><img src="https://static.ebs.co.kr/images/ebs/WAS-HOME/portal/upload/img/programinfo/person/per/1242723588618_dphGgSgOAp.jpg" width="100" height="100"/></td>
+    <td align="center"><img src="https://github.com/Jo-Moon-Gyu/Team_ADVICE_Project/assets/143055961/55aa9b5a-789a-4647-8f15-19f3730c593a" width="100" height="100"/></td>
+    <td align="center"><img src="https://github.com/Jo-Moon-Gyu/Team_ADVICE_Project/assets/143055961/1d5a1853-4135-405a-98df-f7ecd8b3892c" width="100" height="100"/></td>
   </tr>
   <tr>
     <td align="center"><strong>조문규</strong></td>
