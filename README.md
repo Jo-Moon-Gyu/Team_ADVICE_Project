@@ -4,7 +4,7 @@
 - 주제 : 딥러닝 기술을 활용한 피부 상처 조언 플랫폼 <br>
 ![슬라이드1](https://github.com/Jo-Moon-Gyu/Team_ADVICE_Project/assets/143511660/457996c6-e974-4bab-a16c-dd92aba31a98)
 <br>
-## 프로젝트기간 <br>
+## 프로젝트기간
 - 2023.11.17 ~ 2023.12.14
 
 ## CMS Git주소
