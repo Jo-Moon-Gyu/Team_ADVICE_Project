@@ -55,8 +55,7 @@
 ![슬라이드17](https://github.com/Jo-Moon-Gyu/Team_ADVICE_Project/assets/143055961/6b8a6fbb-e931-452f-a173-7bc941eaf095)<br>
 ![슬라이드18](https://github.com/Jo-Moon-Gyu/Team_ADVICE_Project/assets/143055961/1d17f938-fd1b-4f8d-a2b2-86ab8314fd90)<br>
 
-
-<br>
-
 ## 기술 스택
 <br>![슬라이드12](https://github.com/Jo-Moon-Gyu/Team_ADVICE_Project/assets/143055961/94b70df4-9894-48a7-9e95-dd35e24d6c97)
+
+## 
