@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="id" name="bottom_home" />
+    <item type="id" name="bottom_question" />
+    <item type="id" name="bottom_map" />
+    <item type="id" name="bottom_setting" />
+</resources>

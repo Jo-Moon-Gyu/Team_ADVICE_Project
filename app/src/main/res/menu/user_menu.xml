@@ -1,0 +1,47 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <group
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"> <!-- 아이콘 간격을 조절합니다. -->
+
+        <item
+            android:id="@+id/home"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:icon="@drawable/baseline_home_24"
+            android:title="홈" />
+
+        <item
+            android:id="@+id/mypage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:icon="@drawable/baseline_contact_page_24"
+            android:title="마이페이지" />
+
+        <item
+            android:id="@+id/map"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:icon="@drawable/baseline_add_location_24"
+            android:title="내 주변 안내" />
+
+        <item
+            android:id="@+id/guides"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:icon="@drawable/baseline_report_24"
+            android:title="이용 안내" />
+    </group>
+
+    <group
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <item
+            android:id="@+id/logout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:title="로그아웃" />
+    </group>
+</menu>

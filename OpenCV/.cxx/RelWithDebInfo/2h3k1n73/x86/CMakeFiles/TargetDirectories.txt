@@ -1,0 +1,3 @@
+C:/Users/Moon_94/AndroidStudioProjects/ADVISER/OpenCV/.cxx/RelWithDebInfo/2h3k1n73/x86/CMakeFiles/opencv_jni_shared.dir
+C:/Users/Moon_94/AndroidStudioProjects/ADVISER/OpenCV/.cxx/RelWithDebInfo/2h3k1n73/x86/CMakeFiles/edit_cache.dir
+C:/Users/Moon_94/AndroidStudioProjects/ADVISER/OpenCV/.cxx/RelWithDebInfo/2h3k1n73/x86/CMakeFiles/rebuild_cache.dir

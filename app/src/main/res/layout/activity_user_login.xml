@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity_login_join.UserLoginActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="150dp"
+            android:textColor="@color/black"
+            android:fontFamily="@font/nanumsquare_acb"
+            android:gravity="center"
+            android:text="내 손안에 의사친구"
+            android:textSize="34dp" />
+
+        <TextView
+            android:id="@+id/appName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/title"
+            android:textColor="@color/black"
+            android:fontFamily="@font/nanumsquare_aceb"
+            android:gravity="center"
+            android:text="ADVISER"
+            android:textSize="60dp" />
+
+        <TextView
+            android:id="@+id/Production"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:fontFamily="@font/nanumsquare_acb"
+            android:gravity="center"
+            android:text="\u0040PROJECT BY ADVICE"
+            android:textSize="10dp" />
+
+        <LinearLayout
+            android:id="@+id/kakaoArr"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="60dp"
+            android:layout_below="@+id/appName"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <android.widget.Button
+                android:id="@+id/btnKakao"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="80dp"
+                android:layout_marginRight="80dp"
+                android:background="@drawable/kakao_background"
+                android:drawableLeft="@drawable/kakaologo_25"
+                android:fontFamily="@font/nanumsquare_acb"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:text="카카오 로그인"
+                android:textColor="#191600"
+                android:textSize="18dp"
+                app:iconTint="#191600" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/naverArr"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/kakaoArr"
+            android:layout_marginTop="20dp"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <android.widget.Button
+                android:id="@+id/btnNaver"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="80dp"
+                android:layout_marginRight="80dp"
+                android:background="@drawable/naver_background"
+                android:drawableLeft="@drawable/naverlogo_25"
+                android:fontFamily="@font/nanumsquare_acb"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:text="네이버 로그인"
+                android:textColor="@color/white"
+                android:textSize="18dp" />
+
+        </LinearLayout>
+
+
+
+    </RelativeLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

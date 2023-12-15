@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity_intro.Example">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".activity_intro.Example">
+
+        <TextView
+            android:id="@+id/appName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:fontFamily="@font/nanumsquare_aceb"
+            android:textColor="@color/black"
+            android:gravity="center"
+            android:text="ADVISER"
+            android:textSize="34dp" />
+
+        <FrameLayout
+            android:id="@+id/infomation"
+            android:layout_width="match_parent"
+            android:layout_height="430dp"
+            android:layout_below="@+id/appName"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="40dp"
+            android:background="@drawable/permissions_background"
+            android:padding="10dp" />
+
+        <android.widget.Button
+            android:id="@+id/btnEx"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/infomation"
+            android:layout_marginLeft="80dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginRight="80dp"
+            android:background="@drawable/example_background"
+            android:drawableLeft="@drawable/hospitallogo_25"
+            android:fontFamily="@font/nanumsquare_acb"
+            android:gravity="center"
+            android:imeOptions="actionGo"
+            android:paddingLeft="10dp"
+            android:paddingRight="5dp"
+            android:text="피부 상처 진단 체험해보기"
+            android:textAlignment="center"
+            android:textColor="@color/white" />
+
+        <RelativeLayout
+            android:id="@+id/exArr"
+            android:layout_below="@+id/btnEx"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="80dp"
+            android:layout_marginEnd="80dp"
+            android:layout_marginTop="30dp"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:id="@+id/loginArray"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/goLogin"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:fontFamily="@font/nanumsquare_acb"
+                    android:text="일반사용자라면?" />
+
+                <TextView
+                    android:id="@+id/loginText"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:clickable="true"
+                    android:fontFamily="@font/nanumsquare_acb"
+                    android:gravity="right"
+                    android:onClick="goToLogin"
+                    android:text="로그인"
+                    android:textColor="#007AFF" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/loginArray"
+                android:layout_marginTop="20dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/goAdviser"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:fontFamily="@font/nanumsquare_acb"
+                    android:text="의과대학생이라면?"
+                    android:textSize="12sp" />
+
+                <!-- 네 번째 텍스트 -->
+                <TextView
+                    android:id="@+id/adviserSingUp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:clickable="true"
+                    android:fontFamily="@font/nanumsquare_acb"
+                    android:gravity="right"
+                    android:onClick="joinMembership"
+                    android:text="로그인"
+                    android:textColor="#007AFF"
+                    android:textSize="12sp" />
+
+            </LinearLayout>
+
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/Production"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:fontFamily="@font/nanumsquare_acb"
+            android:gravity="center"
+            android:text="\u0040PROJECT BY ADVICE"
+            android:textSize="10dp" />
+
+    </RelativeLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

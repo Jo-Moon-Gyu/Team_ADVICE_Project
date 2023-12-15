@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity_intro.SetPermissionsActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context=".activity_intro.SetPermissionsActivity">>
+
+        <TextView
+            android:id="@+id/appName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/nanumsquare_aceb"
+            android:textColor="@color/black"
+            android:layout_marginTop="30dp"
+            android:gravity="center"
+            android:text="ADVISER"
+            android:textSize="34dp" />
+
+        <TextView
+            android:id="@+id/setInfo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/appName"
+            android:fontFamily="@font/nanumsquare_acb"
+            android:textColor="@color/black"
+            android:layout_marginTop="20dp"
+            android:gravity="center"
+            android:text="ADVISER를 이용하기 위해\n아래 권한 승인이 필요합니다."
+            android:textSize="20dp" />
+
+        <!-- 안내 설명 영역-->
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/setInfo"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginRight="40dp"
+            android:background="@drawable/permissions_background"
+            android:padding="10dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/permissions"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="5dp"
+                    android:fontFamily="@font/nanumsquare_aceb"
+                    android:text="필수 접근 권한"
+                    android:textSize="18sp" />
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:padding="5dp">
+
+                    <ImageView
+                        android:id="@+id/alarmImage"
+                        android:layout_width="35dp"
+                        android:layout_height="45dp"
+                        android:layout_marginRight="30dp"
+                        android:padding="8dp"
+                        app:srcCompat="@drawable/alarm" />
+
+                    <TextView
+                        android:id="@+id/alarm"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_toRightOf="@id/alarmImage"
+                        android:fontFamily="@font/nanumsquare_acb"
+                        android:paddingRight="10dp"
+                        android:paddingTop="15dp"
+                        android:text="알림 서비스를 승인해주세요."
+                        android:textColor="@color/black"
+                        android:textSize="14sp" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:padding="5dp">
+
+                    <ImageView
+                        android:id="@+id/mapImage"
+                        android:layout_width="35dp"
+                        android:layout_height="45dp"
+                        android:layout_marginRight="30dp"
+                        android:padding="8dp"
+                        app:srcCompat="@drawable/map" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_toRightOf="@id/mapImage"
+                        android:fontFamily="@font/nanumsquare_acb"
+                        android:textColor="@color/black"
+                        android:paddingRight="10dp"
+                        android:paddingTop="15dp"
+                        android:text="위치 서비스를 승인해주세요."
+                        android:textSize="14sp" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:padding="5dp">
+
+                    <ImageView
+                        android:id="@+id/cameraImage"
+                        android:layout_width="35dp"
+                        android:layout_height="45dp"
+                        android:layout_marginRight="30dp"
+                        android:padding="8dp"
+                        app:srcCompat="@drawable/camera" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_toRightOf="@id/cameraImage"
+                        android:fontFamily="@font/nanumsquare_acb"
+                        android:textColor="@color/black"
+                        android:paddingRight="10dp"
+                        android:paddingTop="15dp"
+                        android:text="카메라 서비스를 승인해주세요."
+                        android:textSize="14sp" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginBottom="20dp"
+                    android:orientation="horizontal"
+                    android:padding="5dp">
+
+                    <ImageView
+                        android:id="@+id/fileImage"
+                        android:layout_width="35dp"
+                        android:layout_height="45dp"
+                        android:layout_marginRight="30dp"
+                        android:padding="8dp"
+                        app:srcCompat="@drawable/file" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_toRightOf="@id/fileImage"
+                        android:fontFamily="@font/nanumsquare_acb"
+                        android:textColor="@color/black"
+                        android:paddingRight="10dp"
+                        android:paddingTop="15dp"
+                        android:text="파일 서비스를 승인해주세요."
+                        android:textSize="14sp" />
+                </RelativeLayout>
+
+            </LinearLayout>
+
+        </FrameLayout>
+
+    </RelativeLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

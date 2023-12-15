@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity_login_join.JoinActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <TextView
+            android:id="@+id/appName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:fontFamily="@font/nanumsquare_aceb"
+            android:textColor="@color/black"
+            android:gravity="center"
+            android:text="ADVISER"
+            android:textAlignment="center"
+            android:textSize="34dp" />
+
+        <TextView
+            android:id="@+id/textview1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@+id/appName"
+            android:layout_marginTop="20dp"
+            android:fontFamily="@font/nanumsquare_acb"
+            android:textColor="@color/black"
+            android:gravity="center"
+            android:text="회원가입"
+            android:textAlignment="center"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/textadd"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textview1"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginRight="40dp"
+            android:fontFamily="@font/nanumsquare_aceb"
+            android:textColor="@color/black"
+            android:text="계정생성"
+            android:textSize="18dp" />
+
+        <EditText
+            android:id="@+id/joinEmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textadd"
+            android:layout_marginLeft="40dp"
+            android:layout_marginRight="40dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/input_background"
+            android:ems="10"
+            android:fontFamily="@font/nanumsquare_acr"
+            android:hint="이메일 입력"
+            android:inputType="textEmailAddress"
+            android:padding="10dp"
+            android:textSize="16dp" />
+
+
+
+        <EditText
+            android:id="@+id/joinPw"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/joinEmail"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="40dp"
+            android:background="@drawable/input_background"
+            android:ems="10"
+            android:fontFamily="@font/nanumsquare_acr"
+            android:hint="패스워드 입력"
+            android:inputType="textPassword"
+            android:padding="10dp"
+            android:textSize="16dp" />
+
+        <EditText
+            android:id="@+id/joinPw2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/joinPw"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="40dp"
+            android:background="@drawable/input_background"
+            android:ems="10"
+            android:fontFamily="@font/nanumsquare_acr"
+            android:hint="패스워드 확인"
+            android:inputType="textPassword"
+            android:padding="10dp"
+            android:textSize="16dp" />
+
+
+
+        <TextView
+            android:id="@+id/textview3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/joinPw2"
+            android:layout_marginLeft="40dp"
+            android:layout_marginRight="40dp"
+            android:layout_marginTop="20dp"
+            android:fontFamily="@font/nanumsquare_aceb"
+            android:textColor="@color/black"
+            android:text="이름"
+            android:textSize="18dp" />
+
+        <EditText
+            android:id="@+id/name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textview3"
+            android:layout_marginLeft="40dp"
+            android:layout_marginRight="40dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/input_background"
+            android:ems="10"
+            android:fontFamily="@font/nanumsquare_acr"
+            android:hint="이름을 입력하세요."
+            android:inputType="text"
+            android:padding="10dp"
+            android:textSize="16dp" />
+
+
+        <TextView
+            android:id="@+id/textview2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/name"
+            android:layout_marginLeft="40dp"
+            android:layout_marginRight="40dp"
+            android:layout_marginTop="20dp"
+            android:fontFamily="@font/nanumsquare_aceb"
+            android:textColor="@color/black"
+            android:text="연락처"
+            android:textSize="18dp" />
+
+        <EditText
+            android:id="@+id/tel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textview2"
+            android:layout_marginLeft="40dp"
+            android:layout_marginRight="40dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/input_background"
+            android:ems="10"
+            android:fontFamily="@font/nanumsquare_acr"
+            android:hint="- 포함하여 입력하세요."
+            android:inputType="phone"
+            android:padding="10dp"
+            android:textSize="16dp" />
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tel"
+            android:layout_marginTop="50dp"
+            android:layout_marginLeft="40dp"
+            android:layout_marginRight="40dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/certificate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/input_background"
+                android:fontFamily="@font/nanumsquare_acb"
+                android:gravity="center"
+                android:padding="6dp"
+                android:text="증명서"
+                android:textColor="#7f7f80"
+                android:textSize="18dp" />
+
+            <TextView
+                android:id="@+id/regist"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/nanumsquare_acb"
+                android:gravity="right"
+                android:hint="재학증명서 또는 학생증 등록"
+                android:textSize="16dp" />
+        </LinearLayout>
+
+
+        <android.widget.Button
+            android:id="@+id/submit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginLeft="80dp"
+            android:layout_marginRight="80dp"
+            android:layout_marginBottom="40dp"
+            android:background="@drawable/example_background"
+            android:fontFamily="@font/nanumsquare_acb"
+            android:onClick="onEmail"
+            android:text="가입 신청"
+            android:textColor="@color/white"
+            android:textSize="18dp" />
+
+        <TextView
+            android:id="@+id/Production"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:fontFamily="@font/nanumsquare_acb"
+            android:gravity="center"
+            android:text="\u0040PROJECT BY ADVICE"
+            android:textSize="10dp" />
+    </RelativeLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

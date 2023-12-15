@@ -1,0 +1,326 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.drawerlayout.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/drawerLayout"
+    android:background="@drawable/main_background"
+    tools:context=".activity_usermain.MainUserActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <!--닉네임 알림벨 영역-->
+        <LinearLayout
+            android:id="@+id/nickArr"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/nick"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:text="USER_NICK"
+                    android:textColor="@color/white"
+                    android:textSize="24sp"
+                    android:textStyle="bold" />
+
+                <ImageButton
+                    android:id="@+id/sideBar"
+                    android:layout_width="34dp"
+                    android:layout_height="34dp"
+                    android:layout_alignParentEnd="true"
+                    android:background="#00FFFFFF"
+                    app:srcCompat="@drawable/baseline_menu_34" />
+
+                <androidx.appcompat.widget.AppCompatImageButton
+                    android:id="@+id/alarm"
+                    android:layout_width="34dp"
+                    android:layout_height="34dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_toStartOf="@id/sideBar"
+                    android:background="#00FFFFFF"
+                    app:srcCompat="@drawable/baseline_notifications_34" />
+            </RelativeLayout>
+
+
+            <!--날씨 알림 영역-->
+<!--            <LinearLayout-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="match_parent"-->
+<!--                android:layout_marginLeft="16dp"-->
+<!--                android:layout_marginRight="16dp"-->
+<!--                android:orientation="horizontal">-->
+<!--                &lt;!&ndash;지역 영역&ndash;&gt;-->
+<!--                <TextView-->
+<!--                    android:layout_width="wrap_content"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:layout_centerInParent="true"-->
+<!--                    android:layout_marginRight="10dp"-->
+<!--                    android:text="광주광역시"-->
+<!--                    android:textColor="@color/white"-->
+<!--                    android:textSize="12sp"-->
+<!--                    android:textStyle="bold" />-->
+<!--                &lt;!&ndash;온도 영역&ndash;&gt;-->
+<!--                <TextView-->
+<!--                    android:layout_width="wrap_content"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:layout_centerInParent="true"-->
+<!--                    android:text="3℃"-->
+<!--                    android:textColor="@color/white"-->
+<!--                    android:textSize="12sp"-->
+<!--                    android:textStyle="bold" />-->
+<!--            </LinearLayout>-->
+
+            <!-- 버튼 영역 -->
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="28dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="28dp"
+                android:layout_marginBottom="20dp"
+                android:orientation="horizontal">
+
+                <!-- 왼쪽에 큰 버튼 -->
+                <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/questionBtn"
+                    android:layout_width="140dp"
+                    android:layout_height="120dp"
+                    android:background="@drawable/button_background"
+                    android:drawableBottom="@drawable/medical"
+                    android:fontFamily="@font/nanumsquare_aceb"
+                    android:text="조언을 구하세요." />
+
+                <!-- 오른쪽에 작은 버튼을 담은 LinearLayout -->
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="120dp"
+                    android:layout_alignParentEnd="true"
+                    android:layout_toRightOf="@id/questionBtn"
+                    android:gravity="right"
+                    android:orientation="vertical">
+
+                    <!-- 첫 번째 작은 버튼 -->
+                    <androidx.appcompat.widget.AppCompatButton
+                        android:id="@+id/hospital"
+                        android:layout_width="140dp"
+                        android:layout_height="55dp"
+                        android:background="@drawable/button_background"
+                        android:drawableEnd="@drawable/hospital"
+                        android:fontFamily="@font/nanumsquare_aceb"
+                        android:text="병원 찾기" />
+
+                    <!-- 두 번째 작은 버튼 -->
+                    <androidx.appcompat.widget.AppCompatButton
+                        android:id="@+id/medicine"
+                        android:layout_width="140dp"
+                        android:layout_height="55dp"
+                        android:layout_marginTop="10dp"
+                        android:background="@drawable/button_background"
+                        android:drawableEnd="@drawable/pharmacy"
+                        android:fontFamily="@font/nanumsquare_aceb"
+                        android:text="약국 찾기" />
+                </LinearLayout>
+            </RelativeLayout>
+        </LinearLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/nickArr"
+            android:background="@drawable/main_sub_background">
+
+            <RelativeLayout
+                android:id="@+id/text1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/nanumsquare_aceb"
+                    android:gravity="center"
+                    android:text="나의 상담 목록"
+                    android:textColor="@color/black"
+                    android:textSize="22dp" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_below="@+id/text1"
+                android:id="@+id/inputTextArr"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/input_background"
+                android:orientation="horizontal"
+                android:padding="10dp">
+
+                <EditText
+                    android:id="@+id/questionTitle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:background="@drawable/input_background"
+                    android:fontFamily="@font/nanumsquare_acb"
+                    android:hint="질문 제목을 입력하세요."
+                    android:textColor="@color/black"
+                    android:textSize="14dp" />
+            </RelativeLayout>
+
+            <androidx.core.widget.NestedScrollView
+                android:layout_below="@+id/inputTextArr"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="28dp"
+                android:layout_marginRight="28dp"
+                android:layout_marginBottom="20dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+                    <!--스크롤영역-->
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="20dp"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerHorizontal="true"
+                            android:layout_centerVertical="true"
+                            android:layout_marginTop="10dp"
+                            android:layout_marginBottom="10dp"
+                            android:fontFamily="@font/nanumsquare_acb"
+                            android:text="답변대기"
+                            android:textColor="@color/black"
+                            android:textSize="20sp"
+                            android:textStyle="bold" />
+
+                        <RelativeLayout
+                            android:id="@+id/questionArr"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/permissions_background"
+                            android:orientation="horizontal">
+
+                            <androidx.recyclerview.widget.RecyclerView
+                                android:id="@+id/questionList"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginStart="5dp"
+                                android:layout_marginTop="5dp"
+                                android:layout_marginEnd="5dp"
+                                android:layout_marginBottom="5dp" />
+
+                            <!-- 답변 대기 목록이 없을 때 보여줄 TextView -->
+                            <TextView
+                                android:id="@+id/messageTextView"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:gravity="center"
+                                android:text=""
+                                android:textColor="@color/black"
+                                android:fontFamily="@font/nanumsquare_acb"
+                                android:textSize="14sp"
+                                android:textStyle="bold" />
+                        </RelativeLayout>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerHorizontal="true"
+                            android:layout_centerVertical="true"
+                            android:layout_marginTop="10dp"
+                            android:layout_marginBottom="10dp"
+                            android:fontFamily="@font/nanumsquare_acb"
+                            android:text="상담완료"
+                            android:textColor="@color/black"
+                            android:textSize="20sp"
+                            android:textStyle="bold" />
+
+                        <RelativeLayout
+                            android:id="@+id/answerArr"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/permissions_background"
+                            android:orientation="horizontal">
+
+                            <!-- 상담 완료 목록이 없을 때 보여줄 TextView -->
+                            <TextView
+                                android:id="@+id/answerSuccess"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:gravity="center"
+                                android:text=""
+                                android:textColor="@color/black"
+                                android:fontFamily="@font/nanumsquare_acb"
+                                android:textSize="14sp"
+                                android:textStyle="bold" />
+
+                            <!-- 답변 대기 목록이 없을 때 보여줄 TextView -->
+                            <TextView
+                                android:id="@+id/messageTextView2"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:gravity="center"
+                                android:text=""
+                                android:textColor="@color/black"
+                                android:fontFamily="@font/nanumsquare_acb"
+                                android:textSize="14sp"
+                                android:textStyle="bold" />
+
+                            <androidx.recyclerview.widget.RecyclerView
+                                android:id="@+id/answerList"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginStart="5dp"
+                                android:layout_marginTop="5dp"
+                                android:layout_marginEnd="5dp"
+                                android:layout_marginBottom="5dp" />
+                        </RelativeLayout>
+
+                    </LinearLayout>
+                </LinearLayout>
+
+            </androidx.core.widget.NestedScrollView>
+        </RelativeLayout>
+    </RelativeLayout>
+
+    <com.google.android.material.navigation.NavigationView
+        android:id="@+id/navigationView"
+        android:layout_width="175dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="end"
+        android:background="@drawable/menu_background"
+        app:menu="@menu/user_menu" />
+</androidx.drawerlayout.widget.DrawerLayout>

@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity_login_join.LoginActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".activity_intro.StartingActivity">
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/nanumsquare_acb"
+            android:gravity="center"
+            android:textColor="@color/black"
+            android:layout_marginTop="150dp"
+            android:text="내 손안에 의사친구"
+            android:textSize="34dp" />
+
+        <TextView
+            android:id="@+id/appName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/title"
+            android:textColor="@color/black"
+            android:fontFamily="@font/nanumsquare_aceb"
+            android:gravity="center"
+            android:text="ADVISER"
+            android:textSize="60dp" />
+
+        <TextView
+            android:id="@+id/Production"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:fontFamily="@font/nanumsquare_acb"
+            android:gravity="center"
+            android:text="\u0040PROJECT BY ADVICE"
+            android:textSize="10dp" />
+
+        <LinearLayout
+            android:id="@+id/userLoginArr"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="60dp"
+            android:gravity="center"
+            android:layout_below="@+id/appName"
+            android:orientation="horizontal">
+
+            <android.widget.Button
+                android:id="@+id/userLogin"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="80dp"
+                android:layout_marginRight="80dp"
+                android:background="@drawable/example_background"
+                android:fontFamily="@font/nanumsquare_acb"
+                android:gravity="center"
+                android:onClick="onUserLogin"
+                android:textSize="18dp"
+                android:text="사용자 로그인"
+                android:textAlignment="center"
+                android:textColor="#ffffff" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:gravity="center"
+            android:layout_below="@+id/userLoginArr"
+            android:orientation="horizontal">
+
+            <android.widget.Button
+                android:id="@+id/medicalLogin"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="80dp"
+                android:layout_marginRight="80dp"
+                android:background="@drawable/example_background"
+                android:fontFamily="@font/nanumsquare_acb"
+                android:gravity="center"
+                android:onClick="onMedicalLogin"
+                android:textSize="18dp"
+                android:text="의과대학생 로그인"
+                android:textAlignment="center"
+                android:textColor="#ffffff" />
+        </LinearLayout>
+
+    </RelativeLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
