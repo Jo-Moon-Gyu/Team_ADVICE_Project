@@ -45,10 +45,10 @@
     <td align="center"><b>데이터 수집, 딥러닝 모델 개발,배포</b></td>    
   </tr>
   <tr>
-    <td align="center"><a href="https://github.com/redandcold" target='_blank'>github</a></td>
-    <td align="center"><a href="https://github.com/alestore2" target='_blank'>github</a></td>
+    <td align="center"><a href="https://github.com/Jo-Moon-Gyu" target='_blank'>github</a></td>
+    <td align="center"><a href="https://github.com/" target='_blank'>github</a></td>
+    <td align="center"><a href="https://github.com/applestore2" target='_blank'>github</a></td>
     <td align="center"><a href="https://github.com/rsefaqtd" target='_blank'>github</a></td>
-    <td align="center"><a href="https://github.com/haegunHyeonseok" target='_blank'>github</a></td>
-    <td align="center"><a href="https://github.com/Dehann26" target='_blank'>github</a></td>    
+    <td align="center"><a href="https://github.com/" target='_blank'>github</a></td>    
   </tr>
 </table>
