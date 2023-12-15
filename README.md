@@ -1,6 +1,6 @@
-# Advicehttps://github.com/Jo-Moon-Gyu/Team_ADVICE_Project/blob/main/README.md
+![image](https://github.com/Jo-Moon-Gyu/Team_ADVICE_Project/assets/143055961/2475ff0e-cd22-4929-9e0a-3f5e9558c9eb)# Advicehttps://github.com/Jo-Moon-Gyu/Team_ADVICE_Project/blob/main/README.md
 팀 및 사이트 이름 :ADVICE
-![image](https://github.com/Jo-Moon-Gyu/Team_ADVICE_Project/issues/1#issue-2042778770)
+![image](https://github.com/Jo-Moon-Gyu/Team_ADVICE_Project/assets/143055961/5e0a23e3-65f7-4b9d-85e1-12890cd45a39)
 <br>
 
 ### 딥러닝 기술을 활용한 피부 상처 대응법 조언 플래폼(리뷰 데이터를 수집하여 상처 특성 파악)<br>
