@@ -1,7 +1,6 @@
-# ReviewRepo
+# ReviewRepohttps://github.com/Jo-Moon-Gyu/Team_ADVICE_Project/blob/main/README.md
 팀 및 사이트 이름 :ADVICE
 [![ADVISER]([https://github.com/Jo-Moon-Gyu/Team_ADVICE_Project/issues/1#issue-2042778770]
-
 <br>
 
 ### 사용자의 운동환경 및 경험을 고려한 신발 추천 서비스(리뷰 데이터를 수집하여 신발 특성 파악)<br>
