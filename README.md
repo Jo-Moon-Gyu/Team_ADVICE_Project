@@ -1,5 +1,5 @@
 # ADVICE(App)
-<a href="https://github.com/Jo-Moon-Gyu/Team_ADVICE_CMS" target='_blank'>App Link 바로가기</a>
+<a href="https://github.com/Jo-Moon-Gyu/Team_ADVICE_CMS" target='_blank'>CMS Link 바로가기</a>
 
 스마트 인재 개발원 - 인공지능 융합 서비스 개발자 과정 <br>
 - 실전 프로젝트 <br>
