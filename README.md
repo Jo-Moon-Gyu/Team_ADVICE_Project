@@ -6,11 +6,18 @@
 ### 딥러닝 기술을 활용한 피부 상처 대응법 조언 플래폼(리뷰 데이터를 수집하여 상처 특성 파악)<br>
 
 #### 어플화면
+![슬라이드14](https://github.com/Jo-Moon-Gyu/Team_ADVICE_Project/assets/143055961/32d64178-8450-4188-b16d-ef45b91c798e)<br>
+![슬라이드15](https://github.com/Jo-Moon-Gyu/Team_ADVICE_Project/assets/143055961/019c9596-8078-485b-a440-2fb3a8789009)<br>
+![슬라이드16](https://github.com/Jo-Moon-Gyu/Team_ADVICE_Project/assets/143055961/27c3e560-d651-4cf9-b860-eec8104b4354)<br>
+![슬라이드17](https://github.com/Jo-Moon-Gyu/Team_ADVICE_Project/assets/143055961/6b8a6fbb-e931-452f-a173-7bc941eaf095)<br>
+![슬라이드18](https://github.com/Jo-Moon-Gyu/Team_ADVICE_Project/assets/143055961/1d17f938-fd1b-4f8d-a2b2-86ab8314fd90)<br>
+
 
 <br>
 
 #### 기술 스택
-<br>
+<br>![슬라이드12](https://github.com/Jo-Moon-Gyu/Team_ADVICE_Project/assets/143055961/94b70df4-9894-48a7-9e95-dd35e24d6c97)
+
 
 
 
